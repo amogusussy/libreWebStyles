@@ -1,0 +1,42 @@
+:root {
+	--bg: #1e1e2e;
+	--fg: #cdd6f4;
+	--second-bg: #11111b;
+	--border: #9399b2;
+	--blue: #89b4fa;
+	--red: #f38ba8;
+	--green:#a6e3a1;
+}
+
+body {
+	background: var(--bg);
+	color: var(--fg);
+}
+
+input, select, button, textarea {
+	background: var(--second-bg);
+	color: var(--fg);
+	border-color: var(--border);
+}
+
+a {
+	text-decoration: none;
+	color: var(--blue);
+}
+
+a:visited {
+	color: var(--green);	
+}
+
+textarea {
+	border-radius: 12px;
+	padding: 5px;
+}
+
+body > br:nth-child(3), body > br:nth-child(2){
+	display: none;
+}
+
+button, select {
+	border-radius: 5px;
+}
