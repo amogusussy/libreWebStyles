@@ -1,0 +1,155 @@
+:root {
+    --bg: #1e1e2e;
+    --fg: #cdd6f4;
+    --hover: #89b4fa;
+    --subscribe: #f38ba8;
+    --link: #a6e3a1;
+}
+
+.pure-u-1 {
+    float: right;
+    height: fit-content;
+}
+
+div.pure-u-lg-1-5:nth-child(1) {
+	margin-right: 100%
+}
+
+div.pure-u-lg-1-5:nth-child(1) p, 
+div.pure-u-lg-1-5:nth-child(1) i 
+{
+	display: inline-block;
+}
+#views p, #likes p {
+	margin: none !important;
+}
+
+div.pure-u-lg-1-5:nth-child(1) .h-box {
+	width: 500% !important;
+}
+div.pure-u-lg-1-5:nth-child(1) *:not(a){
+	padding-right: 10px;
+}
+
+div.pure-u-lg-1-5:nth-child(2) {
+    max-width: 100%;
+}
+
+
+.length, .watched {
+    background-color: var(--bg) !important;
+}
+
+button.pure-button-primary,
+body a.pure-button-primary,
+.channel-owner:hover {
+  background-color: #a0a0a0 !important;
+  color: var(--bg) !important;
+}
+
+
+html body.no-theme div.pure-g div#contents.pure-u-1.pure-u-md-20-24 div.pure-g div.pure-u-1.pure-u-lg-3-5 div.h-box div#comments div div.pure-g div.pure-u-20-24.pure-u-md-22-24 div#replies.pure-g div.pure-u-23-24 p{
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+
+.pure-u-1-24, #family_friendly, 
+#license, #genre, a[data-comments="reddit"], 
+#download,
+div.pure-u-md-2-24:nth-child(1):not(.channel-profile), 
+div.pure-u-md-2-24:nth-child(3),
+#annotations{
+    display: none !important;
+}
+
+.channel-profile {
+	width: 60px !important;
+}
+
+html body.dark-theme div.pure-g div#contents.pure-u-1.pure-u-md-20-24 div.pure-g.h-box div.pure-u-2-3 div.channel-profile {
+	width: 100% !important;
+}
+html body.dark-theme div.pure-g div#contents.pure-u-1.pure-u-md-20-24 div.pure-g.h-box div.pure-u-1-3{
+	display: none !important;
+}
+.pure-u-lg-3-5 > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) {
+	width: fit-content !important;
+}
+
+html body.dark-theme div.pure-g div#contents.pure-u-1.pure-u-md-20-24 div.pure-g div.pure-u-1.pure-u-lg-3-5 div.h-box div#comments div div.pure-g div.channel-profile.pure-u-4-24.pure-u-md-2-24 {
+	margin-right: 15px;
+}
+
+#likes, #views {
+    float:left !important;
+    margin-left: 5px !important;
+}
+
+.channel-profile * {
+    border-radius: 90% !important;
+}
+
+h5.pure-g {
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+hr {
+    color: var(--fg) !important;
+}
+
+.pure-g {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+
+a:hover {
+    color: var(--hover) !important;
+} a {
+    color: var(--link) !important;
+}
+
+.pure-u-1 .pure-u-lg-1-5 .h-box a p:not(.length){
+    margin: 10px 0px;
+}
+
+.thumbnail img {
+    border-radius: 7px;
+}
+
+button:not(.vjs-control, .vjs-menu-button-popup), #subscribe {
+    background-color: var(--subscribe) !important;
+}
+
+.vjs-playback-rate {
+    color: var(--fg) !important;
+}
+.pure-input-1 {
+    background-color: var(--bg) !important;
+    border: 1px solid var(--fg) !important;
+    color: var(--fg) !important;
+}
+
+.pure-u-1 .pure-u-md-1-3 a {
+    color: var(--fg) !important;
+}
+
+#player-container {
+	width: 100%
+} 
+.pure-u-md-20-24, .pure-u-md-5-6 {
+	width:  calc(100% - 2em);
+}
+
+div.pure-u-lg-1-5:nth-child(3){
+	margin-left: auto !important;	
+}
+
+.pure-u-lg-3-5 {
+	max-width: 100%;
+}
+
+div.pure-u-md-1-4{
+	width: calc(100%/5) !important;
+}
